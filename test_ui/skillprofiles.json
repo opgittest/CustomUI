@@ -1,0 +1,48 @@
+{"skillprofiles":[
+  {
+  "id":13,
+  "name":"LXT_SkyllProfyle",
+  "description":"SKILL, PROFILE! I said- It always brings me back when you say \"Ooh, CHILD!\" Like the Hudson River out to the NILE, I run the marathon to the very last MILE.",
+  "in_order":true,
+  "show_prompts":false,
+  "status":4,
+  "image":"LXButton.png",
+  "image_size":7741,
+  "game_score_type":"",
+  "game_score":0,
+  "term_date":"10/31/2012",
+  "items":[
+    {
+    "id":46,
+    "type":"nugget"
+    },
+    {
+    "id":10,
+    "type":"nugget"
+    },
+    {
+    "id":58,
+    "type":"nugget"
+    }
+  ]  
+  },
+  {
+  "id":3,
+  "name":"AB Mobile Skill Profile",
+  "description":"test",
+  "in_order":true,
+  "show_prompts":true,
+  "status":6,
+  "image":"",
+  "image_size":0,
+  "game_score_type":"",
+  "game_score":0,
+  "term_date":"10/31/2012",
+  "items":[
+    {
+    "id":27,
+    "type":"nugget"
+    }
+  ]  
+  }
+]}

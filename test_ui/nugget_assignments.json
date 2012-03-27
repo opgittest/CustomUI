@@ -1,0 +1,182 @@
+{
+"new_items":7,
+"total_items":8,
+"nuggets":[
+  {
+  "id":86,
+  "name":"LXT_NuggetHarder",
+  "description":"LXT_NuggetHarder",
+  "duration":2,
+  "status":6,
+  "optional":false,
+  "type":"video",
+  "asset_filename":"Portal2_BotTrust-MP4.mp4",
+  "asset_hash":"496efe87094a627d522b781f9c81de9c",
+  "asset_filesize":1756359,
+  "asset_version":1,
+  "image":"LXButton.png",
+  "image_size":7741,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"Sales Videos",
+  "tests":[
+    {
+    "id":58
+    }
+  ]  
+  },
+  {
+  "id":168,
+  "name":"EPUB/PDF Nugget Test",
+  "description":"This is a test Nugget created using the new Wizard process for EPUB/PDF documents. The content that will be available on your mobile device (ePUB or PDF) is dependent on the file assignment priority for your particular device.",
+  "duration":5,
+  "status":6,
+  "optional":false,
+  "type":"pdf",
+  "asset_filename":"Enterprise_Deployment_Guide.pdf",
+  "asset_hash":"aad61f94a692454b9441172542023b5b",
+  "asset_filesize":1181693,
+  "asset_version":1,
+  "image":"",
+  "image_size":0,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"Monthly Tests",
+  "tests":[
+    
+  ]  
+  },
+  {
+  "id":64,
+  "name":"AT&T U-verse Install Guide (EPUB)",
+  "description":"AT&T U-verse Install Guide (EPUB)",
+  "duration":5,
+  "status":6,
+  "optional":false,
+  "type":"ePub",
+  "asset_filename":"att-uverse-guide-v2.epub",
+  "asset_hash":"d13eea1c93ad75daa89d98808fb32d96",
+  "asset_filesize":55178,
+  "asset_version":1,
+  "image":"",
+  "image_size":0,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"Management Training",
+  "tests":[
+    
+  ]  
+  },
+  {
+  "id":80,
+  "name":"James' test epub",
+  "description":"testing epub",
+  "duration":30,
+  "status":6,
+  "optional":false,
+  "type":"ePub",
+  "asset_filename":"att-uverse-guide-v2.epub",
+  "asset_hash":"d13eea1c93ad75daa89d98808fb32d96",
+  "asset_filesize":55178,
+  "asset_version":1,
+  "image":"",
+  "image_size":0,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"Group Discussions",
+  "tests":[
+    
+  ]  
+  },
+  {
+  "id":58,
+  "name":"LXTest_Nugget",
+  "description":"Test nugget for use with multiple widgets.",
+  "duration":5,
+  "status":6,
+  "optional":false,
+  "type":"video",
+  "asset_filename":"Android_Honeycomb_Intro_Animation-MP4.mp4",
+  "asset_hash":"74ba53c8664d032656d5d1ef5da175c7",
+  "asset_filesize":322495,
+  "asset_version":1,
+  "image":"LXButton.png",
+  "image_size":7741,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"New Hire Orientation",
+  "tests":[
+    {
+    "id":141
+    }
+  ]  
+  },
+  {
+  "id":27,
+  "name":"Pfeffer: Bridging The Knowing-Doing Gap",
+  "description":"From 50 Lessons: Succeeding in business often involves simply adhering to common-sense practices. Jeffrey Pfeffer uncovers why businesses fail to address the obvious and shares how to get back on track.",
+  "duration":4,
+  "status":6,
+  "optional":false,
+  "type":"video",
+  "asset_filename":"FL-0482-MP4.mp4",
+  "asset_hash":"0fc4713b5067c885053a6473a0042ad7",
+  "asset_filesize":8091041,
+  "asset_version":1,
+  "image":"50lessons_JeffreyPfeffer.png",
+  "image_size":62995,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"Featured Products",
+  "tests":[
+    {
+    "id":56
+    }
+  ]  
+  },
+  {
+  "id":10,
+  "name":"Brandon: If You're Not Getting Better, You're Getting Worse",
+  "description":"From 50 Lessons: David Brandon warns against complacency and presents ideas and attitudes to help you inoculate your staff and company against it.",
+  "duration":5,
+  "status":6,
+  "optional":false,
+  "type":"video",
+  "asset_filename":"FL-0406-MP4.mp4",
+  "asset_hash":"50751661ff0bb22810a96f668112b9ca",
+  "asset_filesize":10382284,
+  "asset_version":1,
+  "image":"50lessons_brandon.png",
+  "image_size":15463,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"Sales Videos",
+  "tests":[
+    {
+    "id":69
+    }
+  ]  
+  },
+  {
+  "id":46,
+  "name":"FootballVideoDefense",
+  "description":"aa",
+  "duration":5,
+  "status":4,
+  "optional":false,
+  "type":"video",
+  "asset_filename":"football-MP4.mp4",
+  "asset_hash":"6bc46abe0db14b25fc22a99fa9b4f009",
+  "asset_filesize":6077817,
+  "asset_version":1,
+  "image":"",
+  "image_size":0,
+  "game_score_type":"",
+  "game_score":0,
+	"metatags":"Monthly Tests",
+  "tests":[
+    
+  ]  
+  }
+]
+}
