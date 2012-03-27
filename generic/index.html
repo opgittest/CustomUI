@@ -8,9 +8,13 @@
 </head>
 
 <body>
-<div id="wrapper">
+
   <nav>
-		<a href="#home" data-role="nav">Home</a><a href="#library" data-role="nav">Library</a><a href="#status" data-role="nav">Status</a>
+		<a href="#home" data-role="nav">Home</a>
+    <a href="#assignments" data-role="nav">Assignments</a>
+    <a href="#messages" data-role="nav">Messages</a>
+    <a href="#library" data-role="nav">Library</a>
+    <a href="#status" data-role="nav">Status</a>
   </nav>
 	
   <section data-role="pages">
@@ -28,7 +32,18 @@
       <ul id="statusList"></ul>
     </div>
     
-    <div id="messages" data-role="page">Messages List</div>
+    <div id="assignments" data-role="page">
+    	<a href="#">Get Assignments</a>
+      <h2>My Assignments</h2>
+      <ul id="assignmentList"></ul>
+    </div>
+    
+    <div id="messages" data-role="page">
+    	<a href="javascript: getPaths();">Get Messages</a>
+      <h2>Messages List</h2>
+      <ul id="announcementList"></ul>
+      <ul id="notificationList"></ul>
+    </div>
     
     <div id="games" data-role="page">Games Content</div>
     
@@ -41,15 +56,14 @@
   </div>
 
 
- <br style="clear:both;">
-</div>
+
 
 <div id="templates">
 
 	<div id="library_tmpl">
     <li data-tmpl="type">
         <a href="#" data-scurl="library">
-          <h3 data-tmpl="title"></h3><br style="clear:both;"/>
+          <h3 data-tmpl="title"></h3>
         </a>
     </li>
   </div>
@@ -57,8 +71,33 @@
   <div id="status_tmpl">
     <li data-tmpl="type">
         <a href="#" data-scurl="status">
-          <h3 data-tmpl="title"></h3><br style="clear:both;"/>
+          <h3 data-tmpl="title"></h3>
         </a>
+    </li>
+  </div>
+  
+  <div id="assignment_tmpl">
+  	<li data-tmpl="type">
+    	<a href="#" data-scurl="status">
+      	<h3 data-tmpl="title"></h3>
+        <p data-tmpl="description"></p>
+      </a>
+    </li>
+  </div>
+  
+  <div id="announcement_tmpl">
+  	<li>
+    	<a href="#" data-scurl="announcement">
+      	<h4 data-tmpl="title"></h4>
+      </a>
+    </li>
+  </div>
+  
+  <div id="notification_tmpl">
+  	<li>
+    	<a href="#" data-scurl="notification">
+      	<h4 data-tmpl="title"></h4>
+      </a>
     </li>
   </div>
 
@@ -68,6 +107,23 @@
 <script src="js/smart.js" type="text/javascript"></script>
 <script src="js/jquery.listItems.js" type="text/javascript"></script>
 <script type="text/javascript">
+
+function pageInit(){
+	$("#assignmentList").html('').listItems({
+		collection: 'assignments',
+		template: '#assignment_tmpl'
+	});
+	
+	$("#notificationList").html('').listItems({
+			collection: 'notifications',
+			template: '#notification_tmpl'
+	});
+	
+	$("#announcementList").html('').listItems({
+		collection: 'announcements',
+		template: '#announcement_tmpl'
+	});
+}
 
 function libraryInit(){
 	$("#libraryList").html('').listItems({
@@ -86,7 +142,7 @@ function statusInit(){
 
 $(document).ready(function(){
 
-	//getPaths();
+	getPaths();
 
 	$('nav').on('click', '[data-role="nav"]', function(e){
 		e.preventDefault();

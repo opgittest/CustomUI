@@ -53,6 +53,7 @@ function getStatus(){
 }
 
 
+
 // Define Callback Function
 function setpaths(jsonPath, imgPath, Platform){
 	jsonpath = jsonPath;
